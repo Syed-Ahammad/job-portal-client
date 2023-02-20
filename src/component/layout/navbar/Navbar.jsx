@@ -36,7 +36,7 @@ const Navbar = () => {
         </div>
   </>;
   return (
-    <div className="navbar bg-[#616f39] sticky top-0 h-20 text-primary-content">
+    <div className="navbar bg-[#a7d129] sticky top-0 h-20 text-primary-content">
       <div className="navbar-start md:hidden">
         {menu}
       </div>
@@ -60,8 +60,8 @@ const Navbar = () => {
     </ul>
       </div>
       <div className="navbar-end">
-      <button className="btn btn-primary">Button</button>
-<button className="btn btn-secondary ml-3">Button</button>
+      <button className="btn bg-[#616f39]">Button</button>
+<button className="btn bg-[#3e432e] ml-3">Button</button>
       </div>
     </div>
   );
